@@ -19,3 +19,6 @@ cd dexscan && chmod +x dexscan.sh
 ### SAMPLES
 ![image](https://user-images.githubusercontent.com/55249292/167405082-09ef341b-6bdf-4f09-9ef1-75b428fd8e09.png)
 ![image](https://user-images.githubusercontent.com/55249292/167405135-b88cec55-602b-4413-a800-b85df368b766.png)
+
+### ToDo
+- [ ] Option to add hostname to /etc/host automatically
