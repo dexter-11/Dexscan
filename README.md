@@ -19,6 +19,9 @@ cd dexscan && chmod +x dexscan.sh
 ```
 
 ### SAMPLES
+- Quick Scan
+![image](https://user-images.githubusercontent.com/55249292/167408826-2b01fe5c-3f1e-4ae4-b0e3-c08b8f0fccbb.png)
+- Full Scan
 ![image](https://user-images.githubusercontent.com/55249292/167408217-224731b0-7f58-4015-9b3b-b162b2538bab.png)
 ![image](https://user-images.githubusercontent.com/55249292/167408247-a1ef2a2f-a0a6-4332-8a73-aef36d32e806.png)
 
