@@ -9,7 +9,7 @@
 
 ### USAGE
 ```bash
-git clone
+git clone https://github.com/dexter-11/Dexscan
 cd dexscan && chmod +x dexscan.sh
 
 ./dexscan.sh <IP>                   #--QUICK SCAN
