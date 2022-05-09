@@ -2,7 +2,8 @@
 Made for HTB / OffSec PG / THM / PWK and OSCP!
 _ _ _
 ### FEATURES
-- Very fast (Full scan: ~10 mins, Quick scan: <5 mins)
+- 2 modes: Quick and Full Scans
+- Very fast (Full scan: <10 mins, Quick scan: <5 mins)
 - TCP and UDP ports together
 - Gives a list of open ports, pre-recon, in less than 10 seconds _(maybe inaccurate)_
 - Gives suggestions post-recon to begin working with instantly
