@@ -1,4 +1,6 @@
 # Dexscan
+Made for HTB / OffSec PG / THM / PWK and OSCP!
+_ _ _
 ### FEATURES
 - Very fast (Full scan: ~10 mins, Quick scan: <5 mins)
 - TCP and UDP ports together
@@ -21,4 +23,4 @@ cd dexscan && chmod +x dexscan.sh
 ![image](https://user-images.githubusercontent.com/55249292/167405135-b88cec55-602b-4413-a800-b85df368b766.png)
 
 ### ToDo
-- [ ] Option to add hostname to /etc/host automatically
+- [ ] Option to add hostname to `/etc/host` automatically
