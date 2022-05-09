@@ -1,6 +1,6 @@
 # Dexscan
 ### FEATURES
-- Very fast (Full scan: <10 mins, Quick scan: <5 mins)
+- Very fast (Full scan: ~10 mins, Quick scan: <5 mins)
 - TCP and UDP ports together
 - Gives a list of open ports, pre-recon, in less than 10 seconds _(maybe inaccurate)_
 - Gives suggestions post-recon to begin working with instantly
@@ -17,5 +17,5 @@ cd dexscan && chmod +x dexscan.sh
 ```
 
 ### SAMPLES
-![image](https://user-images.githubusercontent.com/55249292/167405082-09ef341b-6bdf-4f09-9ef1-75b428fd8e09.png)
-![image](https://user-images.githubusercontent.com/55249292/167405135-b88cec55-602b-4413-a800-b85df368b766.png)
+![image|1000](https://user-images.githubusercontent.com/55249292/167405082-09ef341b-6bdf-4f09-9ef1-75b428fd8e09.png)
+![image|1000](https://user-images.githubusercontent.com/55249292/167405135-b88cec55-602b-4413-a800-b85df368b766.png)
