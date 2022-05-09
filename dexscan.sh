@@ -80,7 +80,7 @@ elif [ "$2" == "" ]; then
 
 	#SCANS
 	printf "${YELLOW}[+] TCP Scanning...${NC}\n"
-	nmap --top-ports 1000 --min-rate 5000 -Pn -T4 $HOST
+	nmap --top-ports 1000 --min-rate 1000 -Pn $HOST
 	if [ $IAMROOT == 1 ]; then
 		echo
 		printf "${YELLOW}[+] UDP Scanning...${NC}\n"
