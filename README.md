@@ -29,3 +29,7 @@ cd dexscan && chmod +x dexscan.sh
 
 ### ToDo
 - [ ] Option to add hostname to `/etc/host` automatically
+
+### Reference
+1. Scan Suggestions - [Nmap-Automator](https://github.com/21y4d/nmapAutomator)
+2. Colors - [LinPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
