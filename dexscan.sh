@@ -209,6 +209,11 @@ else
 	if [ -z $hostname_found ]; then
 		hostname_found=$(nmap -Pn -T4 -sV -p389 $HOST | grep "Host:" | cut -d " " -f 4 | tr -d ";")
 	fi
+	if [ -z $hostname_found ]; then
+		if [ -f "$OUTPUTDIR/$filename" ]; then
+		        file="$(cat "$OUTPUTDIR/$filename" | grep -iE "computer_name" | head -1 | cut -d " " -f 5)"
+	        fi
+        fi
 	echo
 	printf "${YELLOW}[+] Discovered domain - ${LIGHT_CYAN}$domain_found ${DULL_YELLOW}(If found then, 70%% accurate)${NC}\n"
 	printf "${YELLOW}[+] Discovered hostname - ${LIGHT_CYAN}$hostname_found ${DULL_YELLOW}(If found then, 70%% accurate)${NC}\n"
