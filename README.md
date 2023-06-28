@@ -33,6 +33,3 @@ cd dexscan && chmod +x dexscan.sh
 ### Reference
 1. Scan Suggestions - [Nmap-Automator](https://github.com/21y4d/nmapAutomator)
 2. Colors - [LinPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
-
-### Not for reference
-added morse.sh to convert a txt file to morse and vice versa
